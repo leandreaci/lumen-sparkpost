@@ -1,0 +1,19 @@
+{
+  "name": "leandreaci/lumen-sparkpost",
+  "description": "SparkPost driver for the Lumen PHP framework.",
+  "keywords": [
+    "lumen",
+    "sparkpost"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leandreaci\\Lumen\\SparkPost\\": "src/"
+    }
+  }
+}

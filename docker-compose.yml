@@ -1,0 +1,9 @@
+version: '3'
+services:
+  lumen-sparkpost:
+    build: .
+    container_name: lumen-sparkpost
+    ports:
+    - 4001:80
+    volumes:
+    - .:/var/www/html
