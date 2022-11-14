@@ -8,7 +8,7 @@
   "type": "library",
   "license": "MIT",
   "require": {
-    "php": "^7.4",
+    "php": "^7.4|^8.0|^8.1",
     "guzzlehttp/guzzle": "^7.2",
     "illuminate/mail": "^8.30",
     "illuminate/notifications": "^8.30"
